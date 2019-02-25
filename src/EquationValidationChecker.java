@@ -4,10 +4,7 @@ public class EquationValidationChecker {
 	static int top;
 	static char x;
 	
-
-	public static void main(String[] args) {
-		 
-	}
+ 
 
 	public static void equation(String strings) {
 		

@@ -31,9 +31,11 @@ public class FileEqnReader {
 				  EquationValidationChecker.equation(strLine);
 				  
 			  }else if(line>7&&line<11) {
+				// System.out.println (line+"  "+strLine);
+				  PostfixCalculator.calculator(strLine);
 				  
 			  }else if(line >11 && line <17) {
-				  
+				  InfixToPostFix.infixToPostFix(strLine);
 			  }else {
 				  
 			  }
