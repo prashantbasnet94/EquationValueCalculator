@@ -24,7 +24,10 @@ public class InfixToPostFix {
 			}else if(string.charAt(a)==')' ){
 				
 //				
-				
+				while(stackOperatorIsEmpty()==false) {
+					//	System.out.println("what? "+stackOperatorIsEmpty());
+						 pushOperand(popOperator());
+					}
 				
 				 
 				 
